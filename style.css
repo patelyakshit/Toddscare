@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #2C3091;
+}
+a {
+    text-decoration: none;
+}
+.mb-12 {
+    margin-bottom: 20px;
+}
+.game-body {
+    padding: 100px 100px 30px 100px;
+    display: flex;
+    justify-content: center;
+}
+.game-text {
+    padding: 0 100px 60px 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    width: 350px;
+    height: 100px;
+    background: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo > img {
+    width: 80%;
+}
+.inner-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text > h2 {
+    font-size: 55px;
+    color: #fff;
+    font-weight: bold;
+}
+.text > h2 > span {
+    color: #FDBE01;
+}
+.game-info {
+    padding: 0 100px 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-wrap {
+    padding: 0 25px;    
+}
+.inner-box {
+    border: 10px solid #fff;
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(62,137,253,1) 0%, rgba(18,87,193,1) 100%);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box-org {
+    border: 10px solid #fff;
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(255,98,94,1) 0%, rgba(203,39,36,1) 100%);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-box-bmj {
+    border: 10px solid #fff;
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(180deg, rgba(255,199,31,1) 0%, rgba(193,145,0,1) 100%);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-text > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 85px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.inner-box > img {
+    width: 355px;
+}
+
+/* Responsive Codes */
+@media only screen and (max-width: 600px) {
+    .game-body {
+        padding: 100px 100px 30px 100px;
+    }
+}
